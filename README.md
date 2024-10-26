@@ -106,7 +106,12 @@ REACT_APP_S3_BUCKET_NAME=my-app-prod-bucket1
 
 ## Usage
 1. **Login**: Enter your Firebase credentials to log in.
-   test
+   credentials:
+   test2@gmail.com       Password: Password123
+   test1@gmail.com
+   testuser@example.com
+
+
 3. **Upload File**: Select a file and click "Upload" to send it to the respective S3 bucket.
 4. **Environment-Specific Buckets**: Ensure the correct environment is set to upload to the intended bucket.
 
