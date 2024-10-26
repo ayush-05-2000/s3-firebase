@@ -32,7 +32,7 @@ This project allows users to upload files to AWS S3 buckets after authenticating
    - Create `.env.dev`, `.env.preprod`, and `.env.prod` files in the root directory.
    - Add the following variables to each file, replacing with your actual keys:
 
-    ```plaintext
+
 # .env.dev    
   ```bash
 REACT_APP_FIREBASE_API_KEY=AIzaSyDJXiWYIkzX4Wt4UVJvM-qI_m9drkBncYw
@@ -74,7 +74,7 @@ REACT_APP_S3_SECRET_ACCESS_KEY=sgTtXG1K6XUoNwAkqTlFks66z7m0Z84kSW5uy4yU
 REACT_APP_S3_REGION=eu-north-1
 REACT_APP_S3_BUCKET_NAME=my-app-prod-bucket1
 
-    ```
+
 
 4. **Firebase Configuration**:
    - Set up Firebase for each environment, obtaining unique API keys and project IDs.
