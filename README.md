@@ -34,6 +34,7 @@ This project allows users to upload files to AWS S3 buckets after authenticating
 
     ```plaintext
 # .env.dev    
+  ```bash
 REACT_APP_FIREBASE_API_KEY=AIzaSyDJXiWYIkzX4Wt4UVJvM-qI_m9drkBncYw
 REACT_APP_FIREBASE_AUTH_DOMAIN=my-app-dev-96655.firebaseapp.com
 REACT_APP_FIREBASE_PROJECT_ID=my-app-dev-96655
@@ -45,6 +46,7 @@ REACT_APP_S3_ACCESS_KEY_ID=AKIAQXPZDE6DOIV7JJDQ
 REACT_APP_S3_SECRET_ACCESS_KEY=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
 REACT_APP_S3_REGION=eu-north-1
 REACT_APP_S3_BUCKET_NAME=my-app-dev-bucket1
+    ```
 
 # .env.preprod
 REACT_APP_FIREBASE_API_KEY=AIzaSyCWgRAAFofTjz-wYHCl0kCPNRi1kf9a-Gc
