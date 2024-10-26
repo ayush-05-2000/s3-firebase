@@ -78,15 +78,8 @@ REACT_APP_S3_BUCKET_NAME=my-app-prod-bucket1
    ```
 
 
-4. **Firebase Configuration**:
-   - Set up Firebase for each environment, obtaining unique API keys and project IDs.
-   - Ensure Firebase authentication is configured to allow email/password login.
 
-5. **AWS IAM Configuration**:
-   - Create three IAM users, one for each environment, with access limited to their respective S3 buckets.
-   - Attach policies to each bucket to allow only the specific IAM user to upload, list, and get objects.
-
-6. **Run Application**:
+4. **Run Application**:
     - To start the app with a specific environment, use the following commands:
 
     ```bash
@@ -102,22 +95,18 @@ REACT_APP_S3_BUCKET_NAME=my-app-prod-bucket1
 
     *(Make sure `env-cmd` is installed globally or in your project)*
 
-7. **Deploying to Firebase** (Optional):
-    - Follow Firebase hosting instructions to deploy the app.
-    - Set environment variables in Firebase settings or configure `.env` files accordingly.
 
 ## Usage
 1. **Login**: Enter your Firebase credentials to log in.
-2. **Upload File**: Select a file and click "Upload" to send it to the respective S3 bucket.
-3. **Environment-Specific Buckets**: Ensure the correct environment is set to upload to the intended bucket.
+   test
+3. **Upload File**: Select a file and click "Upload" to send it to the respective S3 bucket.
+4. **Environment-Specific Buckets**: Ensure the correct environment is set to upload to the intended bucket.
 
 ## Troubleshooting
 - **CORS Issues**: Make sure each S3 bucket has the appropriate CORS policy to allow requests from your frontend domain (e.g., `http://localhost:3000`).
 - **403 Forbidden Errors**: Check IAM policies and ensure correct access is granted for each user to their respective S3 bucket.
 - **Signature Mismatch**: Verify AWS credentials in `.env` files are accurate for each environment.
 
-## License
-This project is licensed under the MIT License.
 
 ## Author
 Ayush Anand
