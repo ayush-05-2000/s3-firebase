@@ -11,6 +11,7 @@ This project allows users to upload files to AWS S3 buckets after authenticating
 ## Setup Instructions
 
 ### Prerequisites
+-**npm version**: 10.8.2
 - **Node.js**: Ensure Node.js is installed.
 - **AWS Account**: Set up AWS S3 buckets and IAM users for each environment.
 - **Firebase Project**: Create Firebase projects or configurations for each environment.
@@ -19,13 +20,20 @@ This project allows users to upload files to AWS S3 buckets after authenticating
 
 1. **Clone the Repository**:
     ```bash
-    git clone <your-repo-url>
-    cd project-root
+    git clone https://github.com/ayush-05-2000/s3-firebase
+
     ```
 
 2. **Install Dependencies**:
     ```bash
     npm install
+    npm install firebase
+    npm install aws-sdk
+    npm install @mui/material @emotion/react @emotion/styled
+    npm install @mui/icons-material
+    npm install -g env-cmd
+
+
     ```
 
 3. **Environment Variables**:
